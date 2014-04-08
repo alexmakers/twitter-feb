@@ -1,0 +1,98 @@
+<!doctype>
+<html>
+  <head>
+    <title>Twitter clone</title>
+    <link rel='stylesheet' href='style.css' type='text/css'>
+    <meta charset='utf8'>
+  </head>
+
+  <body>
+    <nav>
+      Nav goes here
+    </nav>
+
+    <main class='clearfix'>
+      <section class='sidebar'>
+        <section class='profile'>
+          <div class='bg-photo'>
+          </div>
+
+          <div class='profile-pic'>
+            <img src="https://pbs.twimg.com/profile_images/1272223066/headshot_m_bigger.png">
+          </div>
+
+          <div class='account-details'>
+            <h3 class='name'>Alex Peattie</h3>
+            <span class='handle'>@alexpeattie</span>
+          </div>
+
+          <br clear='all'>
+
+          <div class='stats clearfix'>
+            <div class='stat'>
+              <span>Tweets</span>
+              <a href='/alexpeattie'>100</a>
+            </div>
+
+            <div class='stat'>
+              <span>Followers</span>
+              <a href='/followers'>172</a>
+            </div>
+
+            <div class='stat'>
+              <span>Following</span>
+              <a href='/following'>239</a>
+            </div>
+
+          </div>
+
+          <form>
+            <textarea placeholder='Compose new Tweet'></textarea>
+            <div class='actions hidden'>
+              <span class='char_count'>140</span>
+              <button>Tweet</button>  
+              <br clear='all'>
+            </div>
+          </form>
+
+        </section>
+      </section>
+
+      <section class='timeline'>
+        <div class='tweets'>
+          <div class='tweet'>
+            Tweet tweet
+          </div>
+
+          <div class='tweet'>
+            Tweet tweet
+          </div>
+
+          <div class='tweet'>
+            Tweet tweet
+          </div>
+
+          <div class='tweet'>
+            Tweet tweet
+          </div>
+
+          <div class='tweet'>
+            Tweet tweet
+          </div>
+
+          <div class='tweet'>
+            Tweet tweet
+          </div>
+        </div>
+
+        <div class='loader'>
+          <img src='http://www.antzinc.com/include/image/loading_gif.gif'>
+        </div>
+
+      </section>
+    </main>
+
+    <script src='http://code.jquery.com/jquery-2.1.0.min.js'></script>
+    <script src='tweet_form.js'></script>
+  </body>
+</html>
